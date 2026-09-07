@@ -6,6 +6,8 @@ dependencies:
   - pandas
   - numpy
   - pip
+  - jupyterlab
   - pip:
       - entsoe-py
       - cdsapi
+      - python-dotenv
