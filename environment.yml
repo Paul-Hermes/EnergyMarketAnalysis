@@ -1,0 +1,11 @@
+name: energy-market-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - pip
+  - pip:
+      - entsoe-py
+      - cdsapi
