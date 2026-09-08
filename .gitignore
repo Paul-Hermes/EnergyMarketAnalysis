@@ -5,3 +5,5 @@ __pycache__/
 data/*
 !data/public
 .ipynb_checkpoints/
+.vscode/
+.DS_Store

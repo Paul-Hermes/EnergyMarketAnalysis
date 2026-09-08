@@ -9,5 +9,9 @@ dependencies:
   - jupyterlab
   - pip:
       - entsoe-py
-      - cdsapi
+      - cdsapi>=0.7
       - python-dotenv
+      - xarray
+      - netcdf4
+      - dask
+      - pyarrow
