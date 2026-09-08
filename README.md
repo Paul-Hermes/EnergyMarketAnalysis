@@ -19,6 +19,7 @@ ONLY PERFORM IF YOU KNOW WHAT YOU ARE DOING:
     conda env update -f environment.yml --prune
     conda env export --no-builds > environment.lock.yml
 ## Contents
+    01_acquisition.ipynb - How to get the data I will be using
 
 ## Notes
 All data
