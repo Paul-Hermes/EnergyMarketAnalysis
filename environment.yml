@@ -15,3 +15,4 @@ dependencies:
       - netcdf4
       - dask
       - pyarrow
+      - matplotlib
