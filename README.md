@@ -16,6 +16,7 @@ In case you want to use more current versions of the here used packages, you can
 It is possible this makes the packages not work together anymore. 
 If you use the setup I descibed above you will be using _exactly_ what I am using which should work without bigger problems.
 ONLY PERFORM IF YOU KNOW WHAT YOU ARE DOING:
+
     conda env update -f environment.yml --prune
     conda env export --no-builds > environment.lock.yml
 ## Contents

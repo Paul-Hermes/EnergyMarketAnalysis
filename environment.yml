@@ -15,5 +15,6 @@ dependencies:
       - netcdf4
       - dask
       - pyarrow
-      - matplotlib
+      - pandas
+      - hvplot
       - polars
