@@ -16,3 +16,4 @@ dependencies:
       - dask
       - pyarrow
       - matplotlib
+      - polars
