@@ -1,6 +1,13 @@
-# Energy Market Analysis Project - by Paul J. Hermes
+# Energy Market Analysis Project (WIP) - by Paul J. Hermes
 
-This is a project exploring the european energy market.
+Exploring how different aspects in the European electricity market relate to each other with the goal to predict day-ahead prices. 
+
+![alt text](imgs/price_ra_entire_period.png)
+
+Using the generation mix, weather and calendar data, I hope to predict the day-ahead prices for electricity in the bidding zones DK1, DK2 and DE_LU.
+The modelling of this data is done both using statistical methods and machine learning methods.
+
+![alt text](imgs/generation_mix.png)
 
 ## Prerequisites
 
@@ -33,14 +40,17 @@ ONLY PERFORM IF YOU KNOW WHAT YOU ARE DOING:
 
 ## Contents
 
-    01_acquisition.ipynb - How to get the data I will be using
+    01_acquisition.ipynb          - How to get the data I will be using
+    02_preprocessing.ipynb        - Cleaning up the data
+    03_eda.ipynb                  - Exploration of the data
+    04_statistical_methods.ipynb  - Predicting price data statistically (WIP)
+    05_ml_models.ipynb            - Predicting price data using machine learning (WIP)
+    06_conclusion.ipynb           - findings and evaluation of models (WIP)
 
-## Notes
+## Results
 
-All data used stems from:
+(WIP)
 
- - ENTSO-E, "ENTSO-E Transparency Platform", 2026. [Online]. Available: https://transparency.entsoe.eu/. [Accessed: 10.09.2026].
- - H. Hersbach et al., "ERA5 hourly data on single levels from 1940 to present",
-    Copernicus Climate Change Service (C3S) Climate Data Store (CDS), 2018.
-    [Online]. Available: https://doi.org/10.24381/cds.adbb2d47.
-    [Accessed: 13.09.2026].
+## Attribution
+
+This project uses data from the ENTSO-E Transparency Platform and contains modified Copernicus Climate Change Service information (ERA5 hourly data), accessed September 2026. Neither the European Commission nor ECMWF is responsible for any use of the Copernicus information or data contained herein.
