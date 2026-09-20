@@ -43,9 +43,8 @@ ONLY PERFORM IF YOU KNOW WHAT YOU ARE DOING:
     01_acquisition.ipynb          - How to get the data I will be using
     02_preprocessing.ipynb        - Cleaning up the data
     03_eda.ipynb                  - Exploration of the data
-    04_statistical_methods.ipynb  - Predicting price data statistically (WIP)
-    05_ml_models.ipynb            - Predicting price data using machine learning (WIP)
-    06_conclusion.ipynb           - findings and evaluation of models (WIP)
+    04_statistical_methods.ipynb  - Autoregression and timeseries approaches (WIP)
+    05_ml_models.ipynb            - Machine learning approaches (WIP)
 
 ## Results
 
